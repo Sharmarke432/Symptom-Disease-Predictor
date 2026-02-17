@@ -1,6 +1,6 @@
 # Symptom-based Disease Suggestion
 
-A simple Streamlit web app that suggests likely diseases from a free‑text description of symptoms, using a TF‑IDF + Logistic Regression text model and a disease–symptom matrix.[web:135][web:139]
+A simple Streamlit web app that suggests likely diseases from a free‑text description of symptoms, using a TF‑IDF + Logistic Regression text model and a disease–symptom matrix.
 
 > ⚠️ Educational demo only. This app does **not** provide medical advice. For any health concerns, always consult a qualified healthcare professional.
 
