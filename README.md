@@ -27,13 +27,13 @@ A simple Streamlit web app that suggests likely diseases from a free‑text desc
 └── requirements.txt            # Python dependencies
 ```
 
-Clone the repo
+## Clone the repo
 ```
 git clone https://github.com/<your-username>/<your-repo-name>.git
 cd <your-repo-name>
 ```
 
-(Optional but recommended) Create and activate a virtual environment
+## (Optional but recommended) Create and activate a virtual environment
 ```
 python -m venv .venv
 # Windows
@@ -42,12 +42,12 @@ python -m venv .venv
 source .venv/bin/activate
 ```
 
-Install Dependencies
+## Install Dependencies
 ```
 pip install -r requirements.txt
 ```
 
-Run locally
+## Run locally
 ```
 streamlit run app.py
 ```
