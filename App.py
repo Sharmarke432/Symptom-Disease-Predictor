@@ -2,6 +2,11 @@ import streamlit as st
 import joblib
 
 # ---------- 1. Load model and vectorizer ----------
+st.set_page_config(
+    page_title="Symptom-based Disease Suggestion",
+    page_icon="🩺",
+    layout="centered",
+)
 
 @st.cache_resource
 def load_model():
@@ -21,8 +26,6 @@ def predict_diseases_text_only(text, vec, clf, top_k=5):
     return pairs[:top_k]
 
 # ---------- 3. Streamlit UI ----------
-
-st.set_page_config(page_title="Symptom-based Disease Suggestion", page_icon="🩺")
 
 st.title("Symptom-based Disease Suggestion (Demo)")
 st.write(
